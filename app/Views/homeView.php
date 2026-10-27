@@ -5,7 +5,7 @@ use App\Helpers\ViewHelper;
 $page_title = 'Home';
 ViewHelper::loadHeader($page_title);
 ?>
-<nav class="navbar md:navbar-expand bg-1" data-bs-theme="dark">
+<nav class="navbar md:navbar-expand bg-1 filter">
     <div class="container-fluid">
 
         <dialog class="drawer drawer-end" tabindex="-1" id="navbarDarkDrawer" aria-labelledby="navbarDarkDrawerLabel">

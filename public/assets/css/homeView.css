@@ -1,0 +1,67 @@
+/*Nav Bar*/
+.filter {
+    background-color: #c6b398;
+    border-top: 0.2em solid #907e65;
+    border-bottom: 0.2em solid #907e65;
+    margin-bottom: 5em;
+}
+
+.filter .btn-solid {
+    position: relative;
+    background: transparent;
+    border: none;
+    color: #8b5e3c;
+}
+
+.filter .btn-solid::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #8b5e3c;
+    transition: width 0.3s ease;
+}
+
+.filter .btn-solid:hover::after {
+    width: 100%;
+}
+
+.filter .form-control {
+    background-color: white;
+    color: #333;
+    border: 1px solid #d6c5b5;
+    border-radius: 6px;
+}
+
+.filter .form-control::placeholder {
+    color: #888;
+}
+
+.filter .form-control:focus {
+    background-color: white;
+    border-color: #8b5e3c;
+    box-shadow: 0 0 0 0.15rem rgba(139, 94, 60, 0.2);
+    outline: none;
+}
+
+.filter .btn-outline {
+    background-color: transparent;
+    border: 1px solid #8b5e3c;
+    color: #8b5e3c;
+    transition: all 0.3s ease;
+}
+
+.filter .btn-outline:hover {
+    background-color: #8b5e3c;
+    color: white;
+    border-color: #8b5e3c;
+}
+/*end nav bar*/
+
+.card {
+    background-color: #c6b398;
+    margin-left: 5em;
+    border: 0.2em solid #907e65;
+}
