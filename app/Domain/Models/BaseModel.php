@@ -27,6 +27,7 @@ class BaseModel
     public function __construct(PDOService $db_service)
     {
         $this->pdo = $db_service->getPDO();
+        
     }
 
     /**
