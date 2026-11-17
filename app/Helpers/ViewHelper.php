@@ -7,6 +7,16 @@ namespace App\Helpers;
 class ViewHelper
 {
 
+    public static function loadAdminHeader(string $page_title, string $username = 'Admin'): void
+    {
+        require_once APP_VIEWS_PATH . '/admin/adminHeader.php';
+    }
+
+    public static function loadAdminFooter(): void
+    {
+        require_once APP_VIEWS_PATH . '/admin/adminFooter.php';
+    }
+
     /**
      * Load the common header for the page.
      *
@@ -26,7 +36,7 @@ class ViewHelper
      */
     public static function loadJsScripts(): void
     {
-        require_once APP_VIEWS_PATH . '/common/js-scripts.php';
+        require APP_VIEWS_PATH . '/common/js-scripts.php';
     }
 
     /**
@@ -36,7 +46,7 @@ class ViewHelper
      */
     public static function loadFooter(): void
     {
-        require_once APP_VIEWS_PATH . '/common/footer.php';
+        require APP_VIEWS_PATH . '/common/footer.php';
     }
 
     /**

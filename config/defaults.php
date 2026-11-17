@@ -60,6 +60,7 @@ $settings['logger'] = [
 // Database settings.
 $settings['db'] = [
     'host' => 'localhost',
+    'port' => '3307',
     'encoding' => 'utf8mb4',
     'options' => [
         // Turn off persistent connections

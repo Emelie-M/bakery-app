@@ -9,8 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
     <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/bakery-app/assets/css/header.css">
-    <link rel="stylesheet" href="/bakery-app/assets/css/homeView.css">
+    <link rel="stylesheet" href="/bakery-app-main/assets/css/header.css">
+    <link rel="stylesheet" href="/bakery-app-main/assets/css/homeView.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
     </style>
@@ -31,7 +31,7 @@
                     <a class="nav-link" href="#"><i class="bi bi-cart"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></a>
+                    <a class="nav-link" href="login"><i class="bi bi-person-circle"></i></a>
                 </li>
 
             </ul>
